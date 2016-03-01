@@ -1,0 +1,131 @@
+
+/* OVERALL STYLES */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #fff;
+	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	height: 100%;
+}
+
+
+a:link { color: black; }
+a:visited { color: black; }
+a:hover { color: black; }
+a:active { color: red; }
+
+
+/* HEADER + NAV + LOGO */
+header {
+	padding: 20px 70px;
+}
+
+header h1 {
+	float: left;
+	text-transform: uppercase;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul {
+	margin: 0;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-left: 20px; 
+}
+
+header nav ul li a:link {
+	color: #3A3A4A; /* Dark Purple */
+	text-transform: uppercase;;
+}
+
+/*BANNER*/
+#banner {
+	position: relative;
+	color: #e0ddd4;
+}
+#bannerText {
+	position: absolute;
+	bottom: 0;
+}
+
+#bannerImage {
+	width: 100%;
+	height: 250px;
+	background: #333;	
+}
+
+/* Section */ 
+.main
+	{
+		float: left;
+		margin-right:22%;
+}
+
+.col_260 {
+	width: 260px;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+
+.aside {
+	width: 260px;
+	background-color: red; 
+}
+/* FOOTER */
+footer{
+	background: #333;
+	color: #e0ddd4; 
+	padding: 1em 1.25em;
+}
+
+.wrap {
+	padding: 75px 70px;
+}
+
+.clearflt {
+	clear: both;
+}
+
+/* TEXT */
+h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+	font-family: cambria, georgia, serif;
+	font-size: 32;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 24;
+	font-weight: normal;
+}
+
+p {
+	font-size: 18;
+}
+
+a:link {
+	font-weight: bold;
+	color: #189893; /*Blue*/
+	text-decoration: none;
+}
+
+q {
+	font-family: cambria, georgia, serif;
+	font-size: 24;
+}
